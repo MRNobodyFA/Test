@@ -6,7 +6,7 @@ plugins {
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.example.advancedide"
+        applicationId "com.ide"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
