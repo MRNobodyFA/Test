@@ -1,42 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.didi.virtualapk.MainActivity">
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/code_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your code here"
+        android:inputType="textMultiLine"
+        android:minHeight="200dp"
+        android:gravity="top|start"
+        android:background="@android:drawable/edit_text" />
+
+    <Button
+        android:id="@+id/run_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run Code"
+        android:layout_marginTop="16dp" />
 
     <TextView
+        android:id="@+id/output_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView" />
+        android:layout_marginTop="16dp"
+        android:text="Output will be shown here"
+        android:background="@android:drawable/edit_text"
+        android:minHeight="100dp"
+        android:gravity="top|start" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/open_plugin"
-        android:id="@+id/button"
-        android:onClick="onButtonClick"
-        android:layout_marginTop="10dp" />
-
-    <Button
-        android:text="@string/about"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:layout_marginTop="10dp"
-        android:id="@+id/about" />
-
-    <Button
-        android:text="@string/webview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:layout_marginTop="10dp"
-        android:id="@+id/webview" />
 </LinearLayout>
