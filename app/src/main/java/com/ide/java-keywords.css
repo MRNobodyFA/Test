@@ -1,0 +1,22 @@
+.keyword {
+    -fx-fill: blue;
+    -fx-font-weight: bold;
+}
+.paren {
+    -fx-fill: firebrick;
+}
+.brace {
+    -fx-fill: forestgreen;
+}
+.bracket {
+    -fx-fill: darkorange;
+}
+.semicolon {
+    -fx-fill: crimson;
+}
+.string {
+    -fx-fill: darkmagenta;
+}
+.comment {
+    -fx-fill: green;
+}
