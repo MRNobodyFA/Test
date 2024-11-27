@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
 }
 android {
+    namespace "com.ide"
     compileSdkVersion 30
     defaultConfig {
         applicationId "com.ide"
